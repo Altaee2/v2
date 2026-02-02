@@ -28,18 +28,17 @@ import time
 REPLY_FILE = "auto_replies.json"
 api_id = 21100923
 api_hash = 'deb6dc38b1af6b940b94f843caf151e5'
-session_string = "1ApWapzMBuxaSon2qt3h6SzLFTaBycjT7D4qDyzpenENSDiCf1MF4a1flHesFxgIrIc4wQ1da_ko4a7K1GzxPNiPm7n1mpjKo-0skyn1i6BPvzzXvjkAmCdj3YXR3kwGFV7C8jSkOjOHPSyHP_HXIQ06jQohTr44-pRw6qgEUTF5OhSZvugsUiCfLgtYNZolqbLsxWoEid36EHtErs8qBw2cxPBqYXQsa4vfq6I8U-NyXBJ0xcG3uwwLHJw0cDMpb8pvDdROsSdfI79AhmldY-oq1_gTIRF3KJUzQYQBpuBLCuLktVfDj4HaNdyj593pnSgyu-nJSrhqlKDUJVQt95KMvPSQiXFk="
-
+session_string = "1ApWapzMBu2PXnpxZdDMCA5lVZNTdSdutR_sbI1mS-aVRT5NNnu-nVHrBms6KIjEJkrQGEHkkm66gCmylRoZUUxoMOlsH8QiegOyBghxo70TArE1YJJBUeus7a228X5UmmqS-5Lt79L4BuCe9CGy5Ty64MZr0Y8q7rhBVQZ2HtDLIAO31463-oPyOZBrYeSXx70mpnN8NPVDkYE4mmpS-1FzWsEl9l-Ei8967XxYAzWYqFTzoFGaDSmDuS5ojQtqubLlPn49rpNwzIhEgjth-BflwtFAADcZLFFdKHUl_yW1dFYyTSKNoXQkH0u3yVi8m6nYW8sQDAab7p_ftgoiD0ZCDUAdbkWo="
 client = TelegramClient(StringSession(session_string), api_id, api_hash)
 
-target_group_id = -1003374397792
-owner_id = 6319055420
+target_group_id = -1005196109912
+owner_id = 6651418703
 self_destruct_save_enabled = True
 bold_text_enabled = False 
 name_update_enabled = False
 original_name = None
 auto_reply_enabled = False
-auto_reply_enabled2 = True
+auto_reply_enabled2 = False
 GROUP_REPLY_FILE = "group_replies.json"
 group_reply_enabled = True 
 banned_words = {'aydgdgd', 'كلمة2', 'احتيال', 'شتيمة', 'ممنوع'}
